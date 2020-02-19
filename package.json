@@ -1,0 +1,23 @@
+{
+  "name": "observable_tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@types/node": "^13.7.2",
+    "axios": "^0.19.2",
+    "rxjs": "^6.5.4",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test1": "ts-node 1-basics.ts",
+    "test2": "ts-node 2-operators.ts",
+    "test3": "ts-node 3-async.ts",
+    "test4": "ts-node 4-rxjs.ts",
+    "test5": "ts-node 5-real-life.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}
